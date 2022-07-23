@@ -1,0 +1,159 @@
+:root {
+  --dm-dark-gray: #18181b;
+  --dm-medium-gray: #3f3f46;
+  --dm-light-white: #fafafa;
+  --dm-light-gray: #59595e;
+  --dm-dark-blue: #001233;
+
+  /* Palette From Coolors */
+  --cultured: #f8f9faff;
+  --cultured-2: #e9ecefff;
+  --gainsboro: #dee2e6ff;
+  --light-gray: #ced4daff;
+  --cadet-blue-crayola: #adb5bdff;
+  --sonic-silver: #6c757dff;
+  --davys-grey: #495057ff;
+  --onyx: #343a40ff;
+  --eerie-black: #212529ff;
+
+  --rich-black-fogra-39: #000103ff;
+  --bone: #e5dcc5ff;
+  --celadon-green: #3c887eff;
+  --cool-grey: #938ba1ff;
+
+  --picton-blue: #22a7f0;
+  --curious-blue: #349bd8;
+  --jelly-bean: #2574a9;
+  --darker-blue: #00719c;
+}
+
+.coding-languages {
+  width: 100%;
+  border-spacing: 50px 20px;
+}
+
+.coding-languages-tr {
+  font-family: Lato;
+  text-align: center;
+  border: 1px solid var(--davys-grey);
+  border-radius: 15px;
+}
+
+.coding-languages-tr:hover {
+  border: 1px solid var(--gainsboro);
+}
+
+.coding-languages-p {
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.tr-image {
+  float: left;
+  margin-top: 2.5vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-left: 1vw;
+}
+
+.coding-languages-entry,
+.tech-skills-entry {
+  margin-right: 20px;
+}
+
+.tech-skills {
+  width: 100%;
+  border-spacing: 50px 20px;
+}
+
+.tech-skills-tr {
+  font-family: Lato;
+  text-align: center;
+  border: 1px solid var(--davys-grey);
+  border-radius: 15px;
+}
+
+.tech-skills-tr:hover {
+  border: 1px solid var(--gainsboro);
+}
+
+.tech-skills-p {
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.projects-scroll {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  grid-auto-columns: 29%;
+  overflow-x: auto;
+  /* overscroll-behavior-inline: contain; */
+  -webkit-overflow-scrolling: touch;
+}
+
+.projects-icon {
+  color: var(--cultured);
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.projects-icon:hover {
+  color: var(--picton-blue);
+}
+
+.projects-p {
+  font-size: 18px;
+}
+
+.accomplishments-p {
+  font-size: 15px;
+  margin-top: -15px;
+}
+
+.accomplishments-div {
+  width: 33.33%;
+  float: left;
+}
+
+.accomplishments-entry-div:hover .accomplishments-entry {
+  color: var(--picton-blue);
+}
+
+/* Contact Form */
+
+.contact-form-field {
+  background: none;
+  line-height: 20px;
+  font-family: "Montserrat";
+  width: 40%;
+  height: 40px;
+  font-size: 16px;
+  color: var(--cultured-2);
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: var(--dm-light-gray);
+}
+
+.contact-form-field:focus {
+  border-color: var(--cultured-2);
+}
+
+#contact-message-field {
+  width: 70%;
+  height: 150px;
+}
+
+#contact-form-button {
+  margin-top: 40px;
+  background: none;
+  color: var(--cultured-2);
+  border-color: var(--cultured-2);
+  font-size: 20px;
+  font-family: "Montserrat";
+  margin-bottom: 20vh;
+  padding: 10px;
+}

@@ -109,13 +109,15 @@
   font-size: 18px;
 }
 
+/* Accomplishments */
+
 .accomplishments-p {
   font-size: 15px;
   margin-top: -15px;
 }
 
 .accomplishments-div {
-  width: 33.33%;
+  width: 31.5%;
   float: left;
 }
 
@@ -156,4 +158,27 @@
   font-family: "Montserrat";
   margin-bottom: 20vh;
   padding: 10px;
+}
+
+#contact-form-button:hover {
+  cursor: pointer;
+}
+
+.find-me-on {
+  margin-top: -20px;
+}
+
+.find-me-on-h3 {
+  font-size: 28px;
+}
+
+.find-me-on-icon {
+  text-decoration: none;
+  color: var(--cultured-2);
+  font-size: 36px;
+  padding: 20px;
+}
+
+.find-me-on-icon-modify {
+  margin-bottom: -25px;
 }

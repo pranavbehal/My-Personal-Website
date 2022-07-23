@@ -61,8 +61,9 @@
 }
 
 .accomplishments-div {
-  width: 31.5%;
+  width: 31%;
   float: left;
+  padding: 10px;
 }
 
 .accomplishments-entry-div:hover .accomplishments-entry {
@@ -170,4 +171,15 @@ b {
 
 .test-div img {
   margin-right: 20px;
+}
+
+.about-me,
+.education,
+.coding-languages,
+.tech-skills,
+.accomplishments,
+.projects,
+.writing,
+.contact {
+  padding-top: 15px;
 }

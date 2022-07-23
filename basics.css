@@ -155,67 +155,6 @@ h2 {
   display: none;
 }
 
-.sidenav-i-1:hover + .sidenav-p-1 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-2:hover + .sidenav-p-2 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-3:hover + .sidenav-p-3 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-4:hover + .sidenav-p-4 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-5:hover + .sidenav-p-5 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-6:hover + .sidenav-p-6 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-7:hover + .sidenav-p-7 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-8:hover + .sidenav-p-8 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-9:hover + .sidenav-p-9 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-10:hover + .sidenav-p-10 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-11:hover + .sidenav-p-11 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-.sidenav-i-12:hover + .sidenav-p-12 {
-  display: block;
-  display: inline;
-  color: var(--cultured);
-}
-
 .about-me {
   margin-top: 100vh;
 }
@@ -223,4 +162,126 @@ h2 {
 .heading-icon {
   margin-right: 15px;
   font-size: 30px;
+}
+
+/* More Sidebar */
+
+.icon-text-group1:hover .sidenav-i-1 {
+  color: var(--cultured);
+}
+
+.icon-text-group1:hover .sidenav-p-1 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group2:hover .sidenav-i-2 {
+  color: var(--cultured);
+}
+
+.icon-text-group2:hover .sidenav-p-2 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group3:hover .sidenav-i-3 {
+  color: var(--cultured);
+}
+
+.icon-text-group3:hover .sidenav-p-3 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group4:hover .sidenav-i-4 {
+  color: var(--cultured);
+}
+
+.icon-text-group4:hover .sidenav-p-4 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group5:hover .sidenav-i-5 {
+  color: var(--cultured);
+}
+
+.icon-text-group5:hover .sidenav-p-5 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group6:hover .sidenav-i-6 {
+  color: var(--cultured);
+}
+
+.icon-text-group6:hover .sidenav-p-6 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group7:hover .sidenav-i-7 {
+  color: var(--cultured);
+}
+
+.icon-text-group7:hover .sidenav-p-7 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group8:hover .sidenav-i-8 {
+  color: var(--cultured);
+}
+
+.icon-text-group8:hover .sidenav-p-8 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group9:hover .sidenav-i-9 {
+  color: var(--cultured);
+}
+
+.icon-text-group9:hover .sidenav-p-9 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group10:hover .sidenav-i-10 {
+  color: var(--cultured);
+}
+
+.icon-text-group10:hover .sidenav-p-10 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group11:hover .sidenav-i-11 {
+  color: var(--cultured);
+}
+
+.icon-text-group11:hover .sidenav-p-11 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
+}
+
+.icon-text-group12:hover .sidenav-i-12 {
+  color: var(--cultured);
+}
+
+.icon-text-group12:hover .sidenav-p-12 {
+  display: block;
+  display: inline;
+  color: var(--cultured);
 }
